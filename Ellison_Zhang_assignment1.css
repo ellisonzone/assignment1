@@ -1,0 +1,59 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+
+table {
+  width: 60%;
+}
+
+td {
+  background-color: rgb(162, 207, 192);
+}
+
+th {
+  font-size: 20px;
+  background-color: rgb(235, 172, 78);
+}
+#address {
+  color: brown;
+}
+.name {
+  color: rgb(12, 42, 211);
+}
+
+hr {
+  width: 60%;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 30%;
+  border-radius: 30px;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 15px;
+  text-shadow: none;
+}
+
+ol > li {
+  font-size: 25px;
+  color: blue;
+}
+
+ul > li {
+  font-size: 20px;
+  color: blueviolet;
+}
+
+#city {
+  font-size: 25px;
+}
