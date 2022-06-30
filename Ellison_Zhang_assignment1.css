@@ -1,3 +1,11 @@
+div {
+  margin: 35px;
+}
+
+h1 {
+  margin-left: -30px;
+}
+
 table,
 th,
 td {
@@ -9,7 +17,7 @@ td {
 }
 
 table {
-  width: 60%;
+  width: 100%;
 }
 
 td {
@@ -17,26 +25,24 @@ td {
 }
 
 th {
-  font-size: 20px;
   background-color: rgb(235, 172, 78);
 }
-#address {
-  color: brown;
+.address {
+  font-size: 15px;
 }
 .name {
   color: rgb(12, 42, 211);
 }
 
 hr {
-  width: 60%;
   text-align: left;
-  margin-left: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0px;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
 }
 
 #search {
-  width: 30%;
+  width: 100%;
   border-radius: 30px;
   height: 50px;
   font-size: 18px;
@@ -50,10 +56,15 @@ ol > li {
 }
 
 ul > li {
-  font-size: 20px;
+  font-size: 25px;
   color: blueviolet;
 }
 
-#city {
+#cityLable {
   font-size: 25px;
+  color: brown;
+  margin-right: 10px;
+}
+#city {
+  font-size: 20px;
 }
