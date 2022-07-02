@@ -16,8 +16,8 @@ td {
   padding: 10px;
 }
 
-table {
-  width: 100%;
+.width80percent {
+  width: 80%;
 }
 
 td {
@@ -28,7 +28,7 @@ th {
   background-color: rgb(235, 172, 78);
 }
 .address {
-  font-size: 15px;
+  font-size: 18px;
 }
 .name {
   color: rgb(12, 42, 211);
@@ -42,7 +42,6 @@ hr {
 }
 
 #search {
-  width: 100%;
   border-radius: 30px;
   height: 50px;
   font-size: 18px;
@@ -67,4 +66,7 @@ ul > li {
 }
 #city {
   font-size: 20px;
+}
+select:hover {
+  background-color: rgb(191, 196, 196);
 }
